@@ -1,0 +1,212 @@
+/* Background Image */
+
+.bg-img{
+  opacity: 0.1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.App{
+  position: relative;
+}
+
+ 
+
+/* Navbar */
+
+.nav-ul{
+  background-color: skyblue;
+  margin: 0;
+  padding: 5px;
+  min-height: 50px;
+  border: 2px solid black;    
+}
+
+
+.nav-ul li{    
+  display: inline-block;
+  padding: 10px;  
+}
+
+.nav-ul li:hover{     
+  border-bottom: 2px solid black;  
+  font-weight: bolder;   
+
+}
+.nav-ul li a{
+  font-size: 15px;
+  font-family: Arial;
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 17px;   
+}
+
+.nav-right{
+  text-align: right; 
+  padding-right: 55px;
+}
+
+span{
+  text-transform: capitalize;  
+}
+
+
+/* Logo */
+
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  float: left;
+  margin-top: 3px;
+  margin-left: 15px;
+}
+
+
+
+.inputBox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+}
+
+/* Buttons */
+
+.appButton{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  font: 17px;
+  font-weight: bold;
+  background-color: skyblue;
+  border: 1px solid black;
+  cursor: pointer;
+  outline: none;
+}
+
+
+.pagination-btn {
+  margin: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  margin: 5px;
+}
+
+ 
+
+
+
+
+.invalid-input {
+  display: block;
+  color: red;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.register ,.product{
+  margin-left: 35%;
+}
+
+.login{
+  margin-left: 30%;
+  margin-top: 100px;
+}
+
+
+/* Product List */
+
+.product-list {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product-list ul li {
+  display: inline-block;
+  width: 130px;   
+  padding: 5px;
+}
+
+.product-list ul{
+  margin: 0;
+}
+
+.list-heading li {
+  background-color: skyblue;
+  border: 1px solid black; 
+  border-radius: 3px;  
+  font: 15px/1.5 Arial,Helvetica,sans-serif ;
+  font-weight: bold;
+}
+
+.list-items li{  
+  font: 15px/1.5 Arial,Helvetica,sans-serif ;  
+  border: 1px solid black
+}
+
+
+
+.search-product-box {
+  width: 400px;
+  margin: 20px;
+  height: 38px;
+  padding-left: 30px;
+  border: solid 1px skyblue;
+}
+
+
+/* Footer */
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color:  skyblue;
+  border: 2px solid black;
+  ;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
